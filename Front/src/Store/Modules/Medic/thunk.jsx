@@ -1,7 +1,6 @@
 import axios from "axios";
 import { postMedicData } from "./action";
 
-// const url_local = 'http://127.0.0.1:8000'
 const url_heroku =  'https://ihealth7.herokuapp.com'
 
 export const postMedicDataThank = (UserData, user_id, token, setError) => (dispatch) => {

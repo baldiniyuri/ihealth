@@ -1,7 +1,7 @@
 import axios from "axios";
 import { getUserHistoric, postUserHistoric } from "./action";
 
-// const url_local = 'http://127.0.0.1:8000'
+
 const url_heroku =  'https://ihealth7.herokuapp.com'
 
 export const getUserHistoricThank = async ( token, user_id, setError) => (dispatch) => {
