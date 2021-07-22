@@ -28,7 +28,6 @@ const HistoricMedicView = () => {
 
     if (error) {
       alert("Historic not found.");
-      console.log(HistoricData);
       setError(false);
       return;
     }

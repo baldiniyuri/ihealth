@@ -29,6 +29,12 @@ const MedicRegister = () => {
     dispatch(postMedicDataThank(await UserData, user_id, token, setError));
 
     history.push("/medicview");
+
+    if (error) {
+      alert("Wrong data!");
+      setError(false);
+      return;
+    }
   };
 
 

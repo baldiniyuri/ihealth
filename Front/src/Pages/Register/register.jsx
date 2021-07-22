@@ -37,6 +37,12 @@ const Register = () => {
   const postUserData = async () => {
     dispatch(postUserDataThank(await UserData, setError));
 
+    if (error) {
+      alert("Wrong data!");
+      setError(false);
+      return;
+    }
+
     if (isSuperUser === true){
       history.push("/medicregister");
     }else{

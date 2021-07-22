@@ -26,6 +26,13 @@ const PostTemperature = () => {
 
   const postUserData = async () => {
     dispatch(postUserTemperatureThank(await UserData, token, user_id, setError));
+
+    if (error) {
+      alert("Wrong data!");
+      setError(false);
+      return;
+    }
+    
     history.push("/temperature");
   };
 

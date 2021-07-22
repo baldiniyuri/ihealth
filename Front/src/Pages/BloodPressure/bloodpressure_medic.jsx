@@ -43,7 +43,6 @@ const BloodPressureMedicView = () => {
 
     if (error) {
       alert("There are no measures for this date.");
-      console.log(BloodPressureData);
       setError(false);
       return;
     }

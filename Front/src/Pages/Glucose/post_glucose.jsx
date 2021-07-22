@@ -28,6 +28,13 @@ const PostGlucose = () => {
   const postUserData = async () => {
     dispatch(postUserGlucoseThank(await UserData, token,user_id, setError));
     history.push("/glucose");
+
+
+    if (error) {
+      alert("Wrong data!");
+      setError(false);
+      return;
+    }
   };
 
   return (

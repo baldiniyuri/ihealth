@@ -31,8 +31,15 @@ const PostBloodPressure = () => {
   const postUserData = async () => {
     dispatch(postUserPressureThank(await UserData, token, user_id, setError));
     history.push("/pressure");
+
+
+    if (error) {
+      alert("Wrong data!");
+      setError(false);
+      return;
+    }
   };
-  console.log(token, user_id)
+
   return (
     <div className="App-header">
       <div className="outer_div">
