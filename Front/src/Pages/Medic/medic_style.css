@@ -1,0 +1,62 @@
+.medic_buttons {
+    margin-top: 1.25rem;
+    margin-left: 20%;
+    width: 9.375rem;
+    max-width: 9.375rem;
+    background-color: #3CAEA3 !important;
+    color: #e8f1f2 !important;
+    border-radius: 15% !important;
+    }
+  
+  .medic_buttons:hover {
+      background-color: #20639b !important;
+      color: #e8f1f2 !important;
+    }
+  
+  .form_align {
+      display: block;
+      flex-grow: 1;
+      justify-content: space-between;
+      margin: 0 auto;
+    }
+  
+  .outer_div-medic-view{
+    margin-top: 5%;
+    margin-left: 28%;
+    margin-right: -28%;
+    width: 31.25rem;
+    height: 15.625rem;
+  }
+  
+  .title-medic-view {
+    color: #3caea3 !important;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2%;
+    width: 100%;
+    margin-left: 20%;
+    margin-right: -20%;
+  }
+  
+  .input_style {
+    border-color: #3CAEA3 ;
+    border-width: 0.2rem;
+    border-radius: 5%;
+    height: 25%;
+    width: 12rem;
+  }
+
+  .container-medic-view {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30%;
+    margin-top: 1%;
+    padding: 5%;
+  }
+  
+  .item-medic-view {
+    width: 9.375rem;
+    height: 6.25rem;
+    padding-left: 1rem;
+  }
+  

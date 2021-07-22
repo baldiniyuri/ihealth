@@ -1,0 +1,37 @@
+.login_buttons {
+    margin-top: 1.25rem;
+    margin-left: 20%;
+    background-color: #3CAEA3 !important;
+    color: #e8f1f2 !important;
+    border-radius: 15% !important;
+    }
+  
+  .login_buttons:hover {
+      background-color: #20639b !important;
+      color: #e8f1f2 !important;
+    }
+  
+  .form_align {
+      display: block;
+      flex-grow: 1;
+      justify-content: space-between;
+      margin: 0 auto;
+    }
+  
+  .outer_div_login{
+    margin-top: 5%;
+    margin-left: 42%;
+  }
+  
+  .title {
+    color: #20639b;
+  }
+  
+  .input_style {
+    margin-top: 1%;
+    border-color: #3CAEA3 ;
+    border-width: 0.2rem;
+    border-radius: 5%;
+    height: 25%;
+    width: 12rem;
+  }

@@ -1,0 +1,58 @@
+.titles-home {
+    color: white !important;
+    text-align: center;
+    font-size: 3.125rem;
+    margin-bottom: 2%;
+  }
+  
+  .display-home {
+    margin-right: 0%;
+  } 
+  
+  /* .homeLogo {
+    background-image: url("./hexagon.jpg");
+    width: 45.5rem;
+    height: 27.875rem;
+    margin-left: 2%;
+    background-size: 45.5rem 27.875rem;
+    background-repeat: no-repeat;
+    background-position: center;
+  } */
+  
+   .home-description {
+    width: 25rem;
+    color: #3CAEA3;
+    font-size: 1.563rem;
+    padding-left: 2rem;
+  }
+  
+  .home-align {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container-home{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 14%;
+    margin-top: 1%;
+
+  
+  }
+  
+  .item-home{
+    width: 30rem;
+    height: 20rem;
+    padding-left: 6rem;
+  }
+
+  .crossTechLogo {
+    background-image: url("./crossTech.jpg");
+    width: 30rem;
+    height: 20rem;
+    background-size: 30rem 20rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-left: 1rem;
+  }

@@ -1,0 +1,68 @@
+.body-style {
+    background-color: rgba(24,26,27,255);
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .body,
+  
+  .footer-style {
+    margin-top: 21%;
+    height: 1.25rem;
+    background-color: rgba(24,26,27,255);
+  }
+  
+  .home-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(24,26,27,255);
+  }
+  
+  .page-buttons {
+    margin-top: 1.25rem;
+    background-color: #3CAEA3 !important;
+    color: #e8f1f2 !important;
+    border-radius: 20% !important;
+  }
+  
+  .page-buttons:hover {
+    background-color: #20639b !important;
+    color: #e8f1f2 !important;
+  }
+  
+  .titles {
+    color: #20639b;
+    text-align: center;
+    font-size: 1.25rem;
+  }
+  
+  .social-icons {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  
+    padding: 1rem;
+    font-size: 1.25rem;
+  }
+  
+
+  
+  .header-align {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3rem;
+  }
+  
+  .crossLogo {
+    background-image: url("./cross.jpg");
+    width: 6.25rem;
+    height: 6.25rem;
+    background-size: 6.25rem 6.25rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    margin-left: 1rem;
+  }
+  

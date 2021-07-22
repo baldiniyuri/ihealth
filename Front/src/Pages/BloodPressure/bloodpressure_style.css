@@ -1,0 +1,97 @@
+.BloodPressure_title {
+  color: #3caea3 !important;
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 2%;
+  width: 100%;
+  margin-left: 15%;
+  margin-right: -15%;
+}
+
+.BloodPressure_title_post {
+  color: #3caea3 !important;
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 2%;
+  margin-left: -40%;
+}
+
+.BloodPressure_title_pacient {
+  color: #3caea3 !important;
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 2%;
+  width: 100%;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+}
+
+.BloodPressure_buttons {
+  margin-top: 1%;
+  width: 130px;
+  background-color: #3caea3 !important;
+  color: #e8f1f2 !important;
+  border-radius: 20% !important;
+}
+
+.BloodPressure_buttons:hover {
+  background-color: #20639b !important;
+  color: #e8f1f2 !important;
+}
+
+.outer_div-pressure {
+  margin-top: 5%;
+  margin-left: 30%;
+  margin-right: -30%;
+  width: 31.25rem;
+  height: 15.625rem;
+}
+
+.container-pressure {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 30%;
+  margin-top: 1%;
+  padding: 4%;
+}
+
+.item-pressure {
+  width: 9.375rem;
+  height: 6.25rem;
+  padding-left: 1rem;
+}
+
+.form-align-pressure {
+  display: block;
+  flex-grow: 1;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.ant-table-thead > tr > th {
+  color: white;
+  background: #3caea3 !important;
+}
+
+.ant-table-tbody {
+  background-color: rgba(24, 26, 27, 255);
+  color: gray;
+}
+
+.ant-table-tbody > tr > th {
+  color: white;
+  background: rgba(24, 26, 27, 255) !important;
+}
+
+.ant-table-tbody > tr.ant-table-row-level-1:hover > td {
+  background: unset;
+}
+
+.input-medic-size{
+  margin-top: 1%;
+  border-color: #3CAEA3 ;
+  border-width: 0.2rem;
+  border-radius: 5%;
+  height: 25%;
+  width: 8.5rem;
+}
