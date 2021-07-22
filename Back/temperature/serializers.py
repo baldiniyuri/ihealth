@@ -5,4 +5,4 @@ class TemperatureSerializer(serializers.Serializer):
     id = serializers.IntegerField(read_only=True)
     temperature = serializers.FloatField()
     date_time = serializers.DateTimeField(required=False) 
-    user = UserSerializerForMedic()
+    user = UserSerializerForMedic(required=False)

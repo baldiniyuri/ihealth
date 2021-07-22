@@ -21,7 +21,7 @@ const PostTemperature = () => {
   const registerTemperature= () => {
     setTimeout(() => {
       postUserData();
-    }, 3000);
+    }, 1000);
   };
 
   const postUserData = async () => {

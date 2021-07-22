@@ -9,7 +9,7 @@ from .serializers import BloodPressueSerializers
 from authentication.models import User
 from datetime import datetime
 from django.utils import timezone
-
+import ipdb
 
 
 class BloodPressureView(APIView):
@@ -31,8 +31,9 @@ class BloodPressureView(APIView):
                 lookup_filter[f'{param}__gte'] = min
                 lookup_filter[f'{param}__lte'] = max
                 pressure = self.queryset.filter(**lookup_filter, user_id=user_id)
+                # ipdb.set_trace()
             else:
-                pressure = BloodPressue.objects.filter(user=user_id)
+                pressure = BloodPressue.objects.filter(user_id=user_id)
         
             serializer = BloodPressueSerializers(pressure, many=True)
 

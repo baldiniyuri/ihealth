@@ -6,4 +6,4 @@ class HistoricSerializer(serializers.Serializer):
     historic = serializers.CharField()
     medicines = serializers.CharField(required=False)
     surgeries = serializers.CharField(required=False)
-    user = UserSerializerForMedic()
+    user = UserSerializerForMedic(required=False)

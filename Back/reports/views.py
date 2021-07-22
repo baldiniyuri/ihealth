@@ -9,8 +9,8 @@ from email.mime.text import MIMEText
 import csv
 import smtplib
 
-email= "sample@email.com"
-password = "password"
+email= "ihealth7api7@gmail.com"
+password = "a1p2i3753753"
 
 server = smtplib.SMTP_SSL("smtp.gmail.com", 465)
 server.login(email, password)

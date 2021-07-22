@@ -1,10 +1,13 @@
 import axios from "axios";
 import { postUserData } from "./action";
 
+const url_local = 'http://127.0.0.1:8000'
+const url_heroku =  'https://ihealth7.herokuapp.com'
+
 export const postUserDataThank = (UserData, setError) => (dispatch) => {
   axios
     .post(
-      `https://ihealth7.herokuapp.com/api/register/`,{
+      `${url_heroku}/api/register/`,{
         "username": UserData.username,
         "first_name": UserData.first_name,
         "last_name": UserData.last_name,

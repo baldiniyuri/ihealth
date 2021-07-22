@@ -1,11 +1,13 @@
 import axios from "axios";
 import { getUserHistoric, postUserHistoric } from "./action";
 
+const url_local = 'http://127.0.0.1:8000'
+const url_heroku =  'https://ihealth7.herokuapp.com'
 
 export const getUserHistoricThank = async ( token, user_id, setError) => (dispatch) => {
   axios
     .get(
-      `https://ihealth7.herokuapp.com/api/historic/${user_id}/`,{
+      `${url_heroku}/api/historic/${user_id}/`,{
         headers: { Authorization: `Token ${token}` }
       }
     )
@@ -24,7 +26,7 @@ export const postUserHistoricThank = (UserData, token,user_id, setError) => (dis
 
   axios
     .post(
-      `https://ihealth7.herokuapp.com/api/historic/${user_id}/`,{
+      `${url_heroku}/api/historic/${user_id}/`,{
         "historic": UserData.historic,
         "medicines": UserData.medicines,
         "surgeries": UserData.surgeries}

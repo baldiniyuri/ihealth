@@ -31,7 +31,7 @@ const Register = () => {
   const registerPacient = () => {
     setTimeout(() => {
       postUserData();
-    }, 3000);
+    }, 1000);
   };
 
   const postUserData = async () => {
@@ -102,7 +102,7 @@ const Register = () => {
           onChange={(e) => setPassword(e.target.value)}
         />
         <br />
-        <Radio.Group onChange={onChange} value={value}>
+        <Radio.Group className="title" onChange={onChange} value={value}>
           <Radio value={1}>Medic</Radio>
           <Radio value={2}>Pacient</Radio>
         </Radio.Group>

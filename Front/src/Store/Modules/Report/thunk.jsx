@@ -1,10 +1,13 @@
 import axios from "axios";
 import { reportUserData } from "./action";
 
+const url_local = 'http://127.0.0.1:8000'
+const url_heroku =  'https://ihealth7.herokuapp.com'
+
 export const postReportThank = (report, setError) => (dispatch) => {
   axios
     .post(
-      `https://ihealth7.herokuapp.com/api/report/`,{
+      `${url_heroku}/api/report/`,{
         "email": report.email,
         "type": report.type,
         "data": report.data

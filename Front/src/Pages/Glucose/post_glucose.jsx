@@ -22,7 +22,7 @@ const PostGlucose = () => {
   const registerGlucose = () => {
     setTimeout(() => {
       postUserData();
-    }, 3000);
+    }, 1000);
   };
 
   const postUserData = async () => {

@@ -32,7 +32,7 @@ const PostBloodPressure = () => {
     dispatch(postUserPressureThank(await UserData, token, user_id, setError));
     history.push("/pressure");
   };
-
+  console.log(token, user_id)
   return (
     <div className="App-header">
       <div className="outer_div">
